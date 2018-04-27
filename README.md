@@ -1,6 +1,6 @@
 # webpack-prefix-replace-plugin
 A plugin for webpack to replace the prefix with giving string.\
-It do the job at webpack compiler's 'emit' hook. Which means the the assets(output files) have been created, but not been emited to the target directory. So it will check all output files and do the replacement work.\
+It do the job at webpack compiler's 'emit' hook. Which means the assets(output files) have been created, but not been emited to the target directory. So it will check all output files and do the replacement work.\
 **NOTE:** it matchs files among the **output files** that configed in webpack output option. 
 
 # Install
