@@ -33,6 +33,8 @@ plugins: [
 # For Angular user
 If you use the official webpack configuration.\
 You can find the webpack configration files in 'your node_modules parent dir/node_modules/@angular/cli/models/webpack-configs/'. Find the correspond config file(ex: development.js for develop enviroment, production.js for production enviroment) and add the plugin.\
+Use production enviroment to build: `ng build --prod`\
+Use production enviroment to serve(not recommended): `ng serve --prod`\
 **```NOTE:```**\
 Angular will generate the image urls(in scss(css) and js files) to 'base64' data, when angular can't find the file, there will be an error. So for exemple in your scss file, there is a line like: "background-image: url('MY_PREFIX/exemple.png')". When angular compile this file it finds that the dir 'MY_PREFIX' do not exist, it will rise an error. \
 A trick to avoid the problem is add 'http://' to your prefix. As angular finds the url starts with 'http://', it will leave the url as it is. So the plugin can find and replace it at the 'emit' moment.\
