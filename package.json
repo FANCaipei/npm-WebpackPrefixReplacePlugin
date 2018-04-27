@@ -1,0 +1,24 @@
+{
+  "name": "webpack-prefix-replace-plugin",
+  "version": "1.0.0",
+  "description": "a plugin for webpack to replace the prefix with giving string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FANCaipei/npm-WebpackPrefixReplacePlugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "prefix",
+    "replace"
+  ],
+  "author": "Caipei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FANCaipei/npm-WebpackPrefixReplacePlugin/issues"
+  },
+  "homepage": "https://github.com/FANCaipei/npm-WebpackPrefixReplacePlugin#readme"
+}
