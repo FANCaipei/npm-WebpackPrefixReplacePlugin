@@ -1,6 +1,6 @@
 {
   "name": "webpack-prefix-replace-plugin",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "a plugin for webpack to replace the prefix with giving string",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "webpack",
+	"angular",
     "prefix",
     "replace"
   ],

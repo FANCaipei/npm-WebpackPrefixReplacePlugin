@@ -36,3 +36,4 @@ class WebpackPrefixReplacePlugin{
     });
   };
 }
+module.exports = WebpackPrefixReplacePlugin;
